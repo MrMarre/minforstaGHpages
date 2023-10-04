@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 15rem;
+  height: 25rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  background-color: rgba(147, 4, 4, 0.716);
+  overflow: hidden;
+}
+.card {
+  /* något fint här jao */
+}
+
+.image {
+  background-image: url(./images/premium_photo-1675848495392-6b9a3b962df0.avif);
+  height: 15rem;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 55%;
+}
